@@ -31,5 +31,12 @@ public class Student
         name = givenName;
     }
     
+     /**
+     * @param address the address to set
+     */
+    public void setName(String address) {
+        this.address = address;
+    }
+    
     
 }
